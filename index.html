@@ -5,11 +5,11 @@
 
 <body style="margin: 0px; overflow: hidden">
   <a-assets>
-    <a-asset-item id="donut" src="/assets/magnemite/donut.gltf"></a-asset-item>
+    <a-asset-item id="donut" src="/donut.gltf"></a-asset-item>
   </a-assets>
-  <a-entity gltf-model="##donut"></a-entity>
 
   <a-scene embedded arjs>
+    <a-entity gltf-model="#donut"></a-entity>
     <!-- <a-box position="0 0.5 0" material="opacity: 1; color: red;"></a-box> -->
     <a-marker-camera preset="hiro"></a-marker-camera>
   </a-scene>
