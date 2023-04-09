@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+  <body style="margin: 0px; overflow: hidden">
+    <a-scene embedded arjs>
+      <!-- Default with diffrent model-->
+      <a-marker preset="hiro">
+        <a-entity position="0 0 0" scale="0.5 0.5 0.5"
+        gltf-model="https://raw.githubusercontent.com/kashishs1993/rookieCookie.github.io/main/assets/cup2/gltf/cup2.gltf">
+      </a-entity>
+      
+      <!-- custom model and marker -->
+      <!-- <a-marker
+        type="pattern"
+        url="https://raw.githubusercontent.com/kashishs1993/rookieCookie.github.io/main/pattern-one.patt"
+      >
+        <a-entity
+          position="0 0 0"
+          scale="5 5 5"
+          gltf-model="https://raw.githubusercontent.com/kashishs1993/rookieCookie.github.io/main/assets/donut/donut%202.gltf"
+        >
+        </a-entity> 
+      </a-marker> -->
+
+      <!-- cup 1 -->
+      <a-marker
+        type="pattern"
+        url="https://raw.githubusercontent.com/kashishs1993/rookieCookie.github.io/main/assets/cup1/pattern-Image.patt"
+      >
+        <a-entity
+          position="0 0 0"
+          scale="0.5 0.5 0.5"
+           gltf-model="https://raw.githubusercontent.com/kashishs1993/rookieCookie.github.io/main/assets/cup1/gltf/cup1.gltf"
+        >
+        </a-entity>
+      </a-marker>
+
+      <!-- cup 2 -->
+      <a-marker
+        type="pattern"
+        url="https://raw.githubusercontent.com/kashishs1993/rookieCookie.github.io/main/assets/cup2/pattern-Image%202.patt"
+      >
+        <a-entity
+          position="0 0 0"
+          scale="0.5 0.5 0.5"
+          gltf-model="https://raw.githubusercontent.com/kashishs1993/rookieCookie.github.io/main/assets/cup2/gltf/cup2.gltf"
+        >
+        </a-entity>
+      </a-marker>
+
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
