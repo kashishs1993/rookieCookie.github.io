@@ -1,0 +1,11 @@
+Model Information:
+* title:	Scan 2023-04-09T14:11:24.321Z
+* source:	https://sketchfab.com/3d-models/scan-2023-04-09t141124321z-ea4f2ad977b64f33864b6d5054c930bc
+* author:	rookieCookie (https://sketchfab.com/rookieCookie)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Scan 2023-04-09T14:11:24.321Z" (https://sketchfab.com/3d-models/scan-2023-04-09t141124321z-ea4f2ad977b64f33864b6d5054c930bc) by rookieCookie (https://sketchfab.com/rookieCookie) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
