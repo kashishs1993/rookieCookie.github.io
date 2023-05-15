@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- location based -->
+  <!-- location based -->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,7 +18,8 @@
     <a-scene
       vr-mode-ui="enabled: false"
       embedded
-      arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;">
+      arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;"
+    >
       <a-camera gps-camera rotation-reader></a-camera>
       <a-entity
         gltf-model="https://raw.githubusercontent.com/kashishs1993/rookieCookie.github.io/main/assets/donut/donut%202.gltf"
@@ -27,6 +28,6 @@
         gps-entity-place="latitude: 53.071720; longitude: 8.799840;"
         animation-mixer
       />
-  </a-scen>
+    </a-scene>
   </body>
 </html>
