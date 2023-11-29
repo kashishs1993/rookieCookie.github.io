@@ -1,0 +1,161 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Lighthouse_LOD3",
+            "scale" : [
+                0.018612828105688095,
+                0.018612828105688095,
+                0.018612828105688095
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Lighthouse",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.019",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "COLOR_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "_low_DefaultMaterial_BaseColor",
+            "uri" : "_low_DefaultMaterial_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "_low_DefaultMaterial_Metallic-_low_DefaultMaterial_Roughness",
+            "uri" : "_low_DefaultMaterial_Metallic-_low_DefaultMaterial_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3071,
+            "max" : [
+                4.6317973136901855,
+                32.809974670410156,
+                4.63178825378418
+            ],
+            "min" : [
+                -4.6315388679504395,
+                6.6241598688066e-05,
+                -4.631538391113281
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3071,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3071,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 3071,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 6486,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 36852,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36852,
+            "byteOffset" : 36852
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24568,
+            "byteOffset" : 73704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24568,
+            "byteOffset" : 98272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12972,
+            "byteOffset" : 122840
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 135812,
+            "uri" : "lighthouse2.bin"
+        }
+    ]
+}
